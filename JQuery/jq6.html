@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before and after </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#btn1").click(function(){
+            $("img").before("<b>Before</b>");
+        })
+        $("#btn2").click(function(){
+            $("img").after("<i>After</i>");
+
+        });
+    });
+</script>
+</head>
+<body>
+    <img src="download.png" alt="jquery" width="250" height="200"><br><br>
+
+    <button id="btn1">Insert Before</button>
+    <button id="btn2">Insert After</button>
+</body>
+</html>

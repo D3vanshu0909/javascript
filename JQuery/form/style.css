@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: rgb(218, 172, 172);
+}
+form {
+    /* background-color: rgb(137, 73, 73); */
+    margin:10px;
+    /* padding: 20px; */
+}
+input{
+    background-color: rgb(227, 207, 207);
+    margin: 3px;
+}
+input[type="submit"] {
+padding: 10px 30px;
+font-size:larger;
+background-color: rgba(207, 16, 16, 0.888);
+color: white;
+border-radius: 15px;
+}
+#textArea {
+    background-color: rgb(245, 243, 243);
+}
